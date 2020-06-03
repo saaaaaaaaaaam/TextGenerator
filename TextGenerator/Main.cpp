@@ -6,10 +6,9 @@
 
 int main()
 {
-	// The quick brown fox jumped over the lazy dog.
 	MarkovChainTextGenerator mctg;
 
-	// Brothers Grimm
+	// Brthrs gr
 	mctg.generateCorpus("text/fairyTales.txt");
 	
 	// Franz Kafka
@@ -22,7 +21,7 @@ int main()
 	mctg.generateCorpus("text/theMoonlitWay.txt");
 	mctg.generateCorpus("text/theSlayerOfSouls.txt");
 
-	// Technology Texts
+
 	mctg.generateCorpus("text/transactionsOfTheAmericanSocietyOfEngineers.txt");
 //	mctg.generateCorpus("text/nitroExplosivesAPracticalTreatise.txt");
 	mctg.generateCorpus("text/theEarliestElectromagneticInstruments.txt");
